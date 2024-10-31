@@ -1,0 +1,64 @@
+@media only screen and (max-width: 560px){
+	div.sc-model-box{display: none;}
+	div.sc-modelbox-subscriber-bg{display:none;}
+}
+div.sc-model-box.wrapper {position: fixed;left: 20%; top: 21%;border: 1px solid #d4d4d4;border-radius:3px;-moz-border-radius:3px; -khtml-border-radius:3px; -webkit-border-radius:3px;font: 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;z-index: 9999999;text-align: left;left: 25%;right: 25%;background-color: #fffeff;}
+@media only screen and (min-width: 960px){
+	div.sc-model-box div.inside {min-height: 140px;margin: 3px;padding: 10px;overflow: visible;z-index: 2000;}
+	div#mailing-list.sc-model-box {width: 600px;}
+}
+div.sc-model-box div.inside.blue {background: #e0e7ea url(./images/blue-bg.jpg) repeat-x 0 -2px;}
+/* Close Buttons */
+div.sc-model-box span.sc-model-close {position: absolute;top: -13px;right: -13px;width: 35px;height: 35px;background: url(./images/close-buttons-sprite.png) no-repeat;}
+div.sc-model-box span.sc-model-close:hover {background-position: 0 -37px;cursor: pointer;}
+div.sc-model-box span.sc-model-close span {display: none;}
+div.sc-model-box span.sc-model-close.black {background-position: -35px 0;}
+div.sc-model-box span.sc-model-close.black:hover {background-position: -35px -36px;}
+
+div.sc-model-box h3 {font-size: 30px;font-weight: bold;margin: 10px 0px 5px;color: #464646;letter-spacing: -1px;}
+
+div.sc-model-box p {text-shadow: rgba(255,254,255,0.5) 0 1px 0;color: #7a7a7a;margin: 5px 0px 10px;}
+
+div.sc-model-box div.clear{height: 1px;clear: both;}
+
+/* Image Styles */
+div.sc-model-box img{float: left;margin-right: 20px;}
+
+/* Form Elements */
+div.sc-model-box form input {outline: none;height: 43px;width: 270px;margin: 0px 0px;border-style: none;background: transparent url(./images/input-bg.png) no-repeat 0 0;position: relative;padding: 0px 10px;color: #9f9f9f;font-size: 13px;}
+div.sc-model-box form input.submit {width: 81px;margin-left: -5px;position: relative;background: url(./images/submit-bg.png) 0 0px;color: #fffeff;font-weight: bold;text-shadow: #000 0 1px 1px;font-size: 13px;}
+div.sc-model-box form input.submit:hover {background-position: 0 -42px;cursor: pointer;}
+div.sc-model-box form label {line-height: 20px;}
+div.sc-model-box form fieldset {border: none;padding: 0px;line-height: 15px;margin: 20px 0px;clear: both;color: #484848;}
+div.sc-model-box form input.text {width: 348px; outline: none;}
+div.sc-model-box form input.radio {margin: 5px;width: 15px;height: 15px;}
+div.sc-model-box form input.checkbox {margin: 5px;width: 15px;height: 15px;}
+div.sc-model-heading{
+	font:bold 16px sans-serif, arial;
+	color: #333;
+}
+p.sc-model-detail{
+	font: 14px sans-serif, arial;
+	color: #ddd;
+}
+div#sc-modelbox-subscriber-bg {
+	display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #000000;
+	z-index: 9999998;
+	opacity: 0.45;
+}
+.sc-model-credit{
+	font: 10px sans-serif;
+	position: absolute;
+	bottom: 5px;
+	right: 8px;
+	text-decoration: none;
+}
+a.sc-model-credit{
+	color: #0f3647;
+}
